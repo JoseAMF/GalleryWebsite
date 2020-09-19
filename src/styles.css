@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: white;
+}
+
+html {
+  overflow-x: hidden;
+}

@@ -1,0 +1,16 @@
+.background {
+  background-image:
+  linear-gradient(
+    rgba(54, 54, 54, 0.6),
+    rgba(54, 54, 54, 0.6)
+  ),
+   url("../../../assets/Images/Background/table.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+i {
+  color: white;
+}

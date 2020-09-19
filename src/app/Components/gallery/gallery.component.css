@@ -1,0 +1,29 @@
+.background {
+  background-image:
+  linear-gradient(
+    rgba(70, 111, 176, 0.2),
+    rgba(70, 111, 176, 0.2)
+  ),
+   url("../../../assets/Images/Background/City-Blue.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  width: 30vh; /* You can set the dimensions to whatever you want */
+  height: 30vh;
+  margin-top: 1vh;
+  object-fit: cover;
+
+  transition: transform .1s ease; /* Animation */
+  border: black 3px solid;
+  z-index: 5;
+}
+
+img:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  position: relative;
+  z-index: 1000;
+}

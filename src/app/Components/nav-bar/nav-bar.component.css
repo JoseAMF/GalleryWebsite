@@ -1,0 +1,19 @@
+.nav.hide-nav {
+  display: none; /* You can play on opacity for nice transitions*/
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+.background {
+  background:
+  linear-gradient(
+    rgba(54, 54, 54, 0.6),
+    rgba(54, 54, 54, 0.6)
+  );
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
